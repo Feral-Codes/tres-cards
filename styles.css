@@ -39,14 +39,24 @@ h4 {
   margin: 15px auto 10px 10px;
 }
 
-p {
+.grey-text {
   font-size: 12px;
   font-weight: 500px;
   margin-left: 10px;
+  color: #9E9E9E;
 }
 
-.grey-text {
-  color: #9E9E9E;
+a {
+  text-decoration: none;
+}
+
+i {
+  font: 12px;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
 }
 
 .card-container:hover {
