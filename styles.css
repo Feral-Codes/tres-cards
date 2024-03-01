@@ -50,13 +50,10 @@ a {
   text-decoration: none;
 }
 
-i {
-  font: 12px;
-}
-
-.link {
+.bottom-link {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 8px;
 }
 
 .card-container:hover {
